@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* @font-face {
+    font-family: Regular;
+    src: url(./assets/fonts/RobotoFlex-VariableFont_GRAD\XTRA\YOPQ\YTAS\YTDE\YTFI\YTLC\YTUC\opsz\slnt\wdth\wght.ttf);
+} */
+@font-face {
+    font-family: Regular;
+    src: url(./assets/fonts/robotoflex.ttf);
+}
+body {
+    font-family: Regular;
+}
