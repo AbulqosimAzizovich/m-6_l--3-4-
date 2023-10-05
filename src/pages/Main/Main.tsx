@@ -1,5 +1,5 @@
 import SettingsIcon from "../../components/Settings/SettingsIcon";
-import SettingsModal from "../../components/Settings/SettingsModal";
+// import SettingsModal from "../../components/Settings/SettingsModal";
 
 const Main = () => {
   return (

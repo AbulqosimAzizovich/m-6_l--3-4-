@@ -1,14 +1,14 @@
-import useModalStore from "./../../pages/Store";
+// import useModalStore from "./../../pages/Store";
 import { FC } from "react";
 
 const SettingsIcon: FC = () => {
-  const isOpen = useModalStore((state) => state.isOpen);
+  // const isOpen = useModalStore((state) => state.isOpen);
   // const closeModal = useModalStore((state) => state.closeModal);
   return (
     <>
       <button
         className="w-[34px] h-[34px] absolute top-[-40px] right-[250px]"
-        onClick={isOpen}
+        // onClick={isOpen}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
